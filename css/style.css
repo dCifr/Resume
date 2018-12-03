@@ -1,0 +1,234 @@
+/*------------------------------------------------------------------
+    Main Style Stylesheet
+    Project:        Personal Resume 
+    Version:        1.0
+    Author:         Aditya_Patil
+    Primary use:    Creative,Personal
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+body
+ + WRAP
+ + HEADER
+ + FOOTER
+ + SOCIAL ICONS
+-------------------------------------------------------------------*/
+/*=======================================================
+      THEME STYLING START
+========================================================*/
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #6a6f72;
+	font-weight: 100;
+	position: relative;
+	font-size: 15px;
+	font-family: 'Roboto Slab', serif;
+}
+/*=======================================================
+      WRAPPER
+========================================================*/
+#wrap {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.container{
+	background-color: #fff;
+	margin-top: 5%;
+	padding: 0px;
+}
+/*=======================================================
+      HEADINGS
+========================================================*/
+h1, h2, h3, h4, h5, h6 {
+	color: #262626;
+	font-weight: bold;
+/*	text-transform: uppercase;
+*/	font-family: 'Roboto Slab', sans-serif;
+}
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-size: 40px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 36px;
+}
+h4 {
+	font-size: 30px;
+}
+h5 {
+	font-size: 24px;
+}
+h6 {
+	font-size: 16px;
+}
+p {
+	color: #3a3a3a;
+	font-size: 15px;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	text-rendering: optimizeLegibility;
+}
+a {
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	text-decoration: none !important;
+}
+img {
+	-webkit-transition: 0.4s ease-in-out;
+	-moz-transition: 0.4s ease-in-out;
+	-ms-transition: 0.4s ease-in-out;
+	-o-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
+	display: inline-block !important;
+}
+ul {
+	margin-bottom: 0px;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #346abb;
+}
+.position-center-center {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+/*=======================================================
+      SECTION
+========================================================*/
+.band {
+	padding: 20px;
+	background-color: #3d759e;
+}
+.jumbotron {
+	background-color: #fff;
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.jumbotron img{
+	width: 150px;
+	max-height: 150px;
+	border-radius: 100%;
+	border: 5px solid #d1d2d3; 
+
+}
+.about {
+	font-size: 16px;
+	padding:20px 0 0 50px;
+}
+.about a{
+	text-decoration: none;
+	color: #000;
+}
+.about i{
+	font-size: 20px;
+}
+.about>.col-md-3,.col-md-2{
+	padding: 10px 0 10px 0;
+}
+.left-bar{
+	padding: 30px 5px 30px 5px;
+	padding-left: 50px;
+	padding-right: 10px;
+}
+.right-bar{
+	padding: 30px 5px 30px 5px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.block{
+	padding: 10px 0 10px 0;
+}
+.block i{
+	color: #3d759e;
+}
+.weighted{
+	color: #000000;	
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* --------------------------------
+
+Primary style
+
+-------------------------------- */
+/* --------------------------------
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+/* --------------------------------
+
+Main components
+
+-------------------------------- */
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (min-width: 1400px) {
+}
+
+
+
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 767px) {
+}
+
+/*=======================================================
+      Footer
+========================================================*/
+
+.rights{
+	background-color: black;
+	margin: 0rem !important;
+}
+.rights p{
+	text-align: center;
+	padding: 5rem 0rem; 
+	color: #fff;
+	margin-bottom: 0 !important;
+}

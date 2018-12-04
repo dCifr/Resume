@@ -123,6 +123,9 @@ a {
 	padding-left: 50px;
 	padding-right: 50px;
 }
+.jumbotron>.col-md-4>span {
+	display: none;
+}
 .jumbotron img{
 	width: 150px;
 	max-height: 150px;
@@ -133,6 +136,7 @@ a {
 .about {
 	font-size: 16px;
 	padding:20px 0 0 50px;
+	display: block;
 }
 .about a{
 	text-decoration: none;
@@ -212,7 +216,41 @@ Main components
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+	.jumbotron>.col-md-2{
+	display: none;
+}
+p{
+	color: #3a3a3a;
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 0.3px;
+	text-rendering: optimizeLegibility;
+}
+.band{
+	display: none;
+}
+h1{
+	font-size: 24px;
+}
+.jumbotron {
+	background-color: #fff;
+	text-align: left;
+	padding: 0 0 0 0;
+	margin-top: 0;
+}
+.jumbotron>.col-md-4>span {
+	display: block;
+}
+.jumbotron>.col-md-4>span a{
+	color: #000;
+}
+.about {
+	display: none;
+}
+strong,h5,h6{
+	font-weight: normal;
+}
 }
 
 @media (max-width: 767px) {
